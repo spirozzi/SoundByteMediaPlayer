@@ -257,6 +257,7 @@ final class SongDatabaseDriver
             {
                 // Add path to list of paths instead of table model
                 pathList.add(sanitizeOutput(allSongs.getString("path")));
+
                 final Vector<Object> songInfo = new Vector<>();
                 songInfo.add(sanitizeOutput(allSongs.getString("name")));
                 songInfo.add(sanitizeOutput(allSongs.getString("artist")));

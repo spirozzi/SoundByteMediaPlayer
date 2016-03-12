@@ -51,10 +51,11 @@ public class UIController implements UIControllerInterface
     }
 
     /**
-     * Adds the songs at the given row indexes to the now playing table
+     * Adds the songs in the song table at the given row indexes to the now
+     * playing table
      *
-     * @param songTableRowIndexes a list of indexes that refer to song
-     * information in the song table
+     * @param songTableRowIndexes a list of indexes which refer to a specific
+     * song in the song table
      *
      * @return an index into the now playing table that points to the first song
      * added
@@ -68,7 +69,7 @@ public class UIController implements UIControllerInterface
     @Override
     public void openOptions()
     {
-        // TODO
+        // TODO, open the Edit > Options... dialog box
     }
 
     @Override

@@ -2,5 +2,5 @@ package com.soundbyte.controller;
 
 public interface PlaybackStateObserver
 {
-	public void setSliderMaximum(int max);
+    public void setSliderMaximum(int max);
 }
